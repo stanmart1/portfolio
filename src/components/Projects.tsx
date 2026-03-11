@@ -88,12 +88,42 @@ const Projects = () => {
       category: "Travel Technology"
     },
     {
-      id: 5,
-      title: "EverySchool Management System",
-      description: "EverySchool is an integrated, cloud-based school management system designed to streamline administrative processes and enhance educational outcomes for institutions of all sizes.",
-      image: "/every.png",
+      id: 6,
+      title: "Active Boulevard",
+      description: "Website for Active Boulevard - A comprehensive fitness and wellness platform connecting trainers, clients, and fitness enthusiasts in a modern digital ecosystem",
+      image: "/active.png",
+      technologies: ["React", "Typescript"],
+      liveUrl: "https://activeblvd.com/",
+      githubUrl: "#",
+      category: "Fitness Technology"
+    },
+    {
+      id: 7,
+      title: "NIMASA E-Library",
+      description: "Nigerian Maritime Administration and Safety Agency's online library platform for maritime books and resources",
+      image: "/nim.png",
       technologies: ["Php", "MySQL"],
-      liveUrl: "https://everyschool.online",
+      liveUrl: "https://nimasaelibraryonline.org/",
+      githubUrl: "#",
+      category: "Education Technology"
+    },
+    {
+      id: 8,
+      title: "Trulaju",
+      description: "A fair, fast and precise pay per km coverage that's priced by actual vehicle activities, Making savings for all type of fleet businesses",
+      image: "/tru.png",
+      technologies: ["React", "Nextjs", "Typescript"],
+      liveUrl: "https://trulaju.com",
+      githubUrl: "#",
+      category: "Insurance Technology"
+    },
+    {
+      id: 9,
+      title: "Readnwin",
+      description: "The ultimate digital and social reading platform that promotes the reading culture amongst young African youths through incentive programs",
+      image: "/read.png",
+      technologies: ["React", "FastAPI", "Postgresql"],
+      liveUrl: "https://readnwin.com",
       githubUrl: "#",
       category: "Education Technology"
     },
@@ -111,8 +141,8 @@ const Projects = () => {
           </p>
         </div>
 
-        {/* Web3 Projects Section */}
-        <div className="mb-20">
+        {/* Web3 Projects Section - Hidden */}
+        {/* <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
               Blockchain & Web3
@@ -181,7 +211,7 @@ const Projects = () => {
               </Card>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* Traditional Projects Section */}
         <div className="text-center mb-12">

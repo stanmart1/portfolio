@@ -4,6 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
 import { web3Projects } from "@/components/Projects";
+import { features } from "process";
 
 const ProjectDetail = () => {
   const { id } = useParams();
@@ -35,16 +36,52 @@ const ProjectDetail = () => {
     },
 
     {
-      id: 5,
-      title: "EverySchool Management System",
-      description: "EverySchool is an integrated, cloud-based school management system designed to streamline administrative processes and enhance educational outcomes for institutions of all sizes.",
-      fullDescription: "EverySchool is an integrated, cloud-based school management system designed to streamline administrative processes and enhance educational outcomes for institutions of all sizes. Our comprehensive platform brings together students, teachers, parents, and administrators in a unified digital ecosystem that simplifies daily operations and improves communication across the entire school community.",
-      image: "/every.png",
+      id: 6,
+      title: "Active Boulevard",
+      description: "Website for Active Boulevard - A comprehensive fitness and wellness platform connecting trainers, clients, and fitness enthusiasts in a modern digital ecosystem.",
+      fullDescription: "Active Boulevard is a cutting-edge fitness and wellness platform that revolutionizes how people discover, connect with, and engage in fitness activities. Our platform serves as a comprehensive hub where certified trainers can showcase their expertise, clients can find personalized training programs, and fitness enthusiasts can access premium workout content, nutrition guidance, and community support. Built with modern web technologies, Active Boulevard features an intuitive user interface to create seamless experiences for all users.",
+      image: "/active.png",
+      technologies: ["React", "TypeScript"],
+      liveUrl: "https://activeblvd.com/",
+      githubUrl: "#",
+      category: "Fitness Technology",
+      features: ["Trainer Profiles", "Class Booking System", "Progress Tracking", "Community Features", "Mobile Responsive Design"]
+    },
+    {
+      id: 7,
+      title: "NIMASA E-Library",
+      description: "Nigerian Maritime Administration and Safety Agency's online library platform for maritime books and resources",
+      fullDescription: "The NIMASA E-Library is an online platform developed for the Nigerian Maritime Administration and Safety Agency (NIMASA) to provide easy access to a vast collection of maritime books, research papers, and resources. This digital library serves as a comprehensive repository for maritime professionals, students, and researchers, offering a user-friendly interface for browsing, searching, and downloading maritime literature.",
+      image: "/nim.png",
       technologies: ["Php", "MySQL"],
-      liveUrl: "https://everyschool.online",
+      liveUrl: "https://nimasaelibraryonline.org/",
       githubUrl: "#",
       category: "Education Technology",
-      features: ["Student Management", "Teacher Portal", "Parent Communication", "Administrative Tools", "Academic Tracking"]
+      features: ["Extensive Maritime Collection", "Search Functionality", "User Account Management", "Downloadable Resources", "Mobile-Friendly Design"]
+    },
+    {
+      id: 8,
+      title: "Trulaju",
+      description: "A fair, fast and precise pay per km coverage that's priced by actual vehicle activities, Making savings for all type of fleet businesses",
+      fullDescription: "Trulaju is a revolutionary insurance platform that offers fair, fast, and precise pay-per-km coverage based on actual vehicle activities. Designed to help fleet businesses save money while ensuring comprehensive protection.",
+      image: "/tru.png",
+      technologies: ["React", "Nextjs", "Typescript"],
+      liveUrl: "https://trulaju.com",
+      githubUrl: "#",
+      category: "Insurance Technology",
+      features: ["Pay-per-kilometer fleet insurance", "Real-Time mileage monitoring", "Fleet management dashboard", "Digital claims processing"]
+    },
+    {
+      id: 9,
+      title: "Readnwin",
+      description: "The ultimate digital and social reading platform that promotes the reading culture amongst young African youths through incentive programs",
+      fullDescription: "Readnwin is a cutting-edge digital and social reading platform designed to promote the reading culture among young African youths through innovative incentive programs.",
+      image: "/read.png",
+      technologies: ["React", "FastAPI", "Postgresql"],
+      liveUrl: "https://readnwin.com",
+      githubUrl: "#",
+      category: "Education Technology",
+      features: ["Built-in E-reader", "Reading Analytics", "Admin dashboard with full administration features", "User Dashboard", "Mobile-Friendly Design", "Payment Integration"]
     },
   ];
 
