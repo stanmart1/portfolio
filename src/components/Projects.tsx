@@ -137,7 +137,7 @@ const Projects = () => {
             Featured Projects
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Explore my latest work in Web3, traditional web development, and enterprise solutions
+            Explore my work in web development, and enterprise solutions
           </p>
         </div>
 
@@ -216,7 +216,7 @@ const Projects = () => {
         {/* Traditional Projects Section */}
         <div className="text-center mb-12">
           <h3 className="text-3xl lg:text-4xl font-bold text-primary mb-4">
-            Traditional Projects
+          Some Of My Work
           </h3>
         </div>
         
